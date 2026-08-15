@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/videoFragment"
+        android:icon="@drawable/ic_nav_video"
+        android:title="@string/tab_video" />
+    <item
+        android:id="@+id/audioFragment"
+        android:icon="@drawable/ic_nav_audio"
+        android:title="@string/tab_audio" />
+    <item
+        android:id="@+id/imageFragment"
+        android:icon="@drawable/ic_nav_image"
+        android:title="@string/tab_image" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="@string/tab_settings" />
+</menu>

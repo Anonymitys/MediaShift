@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">MediaShift</string>
+
+    <!-- Bottom Navigation -->
+    <string name="tab_video">Video</string>
+    <string name="tab_audio">Audio</string>
+    <string name="tab_image">Image</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Conversion -->
+    <string name="add_files">Add Files</string>
+    <string name="start_convert">Convert</string>
+    <string name="cancel_convert">Cancel</string>
+    <string name="converting">Converting…</string>
+    <string name="conversion_done">Conversion complete</string>
+    <string name="conversion_failed">Conversion failed</string>
+    <string name="conversion_canceled">Conversion canceled</string>
+    <string name="no_files_selected">No files selected</string>
+    <string name="select_output_format">Output format</string>
+    <string name="remove_file">Remove file</string>
+
+    <!-- Video Options -->
+    <string name="video_bitrate">Video Bitrate</string>
+    <string name="video_resolution">Resolution</string>
+    <string name="video_crf">Quality (CRF)</string>
+
+    <!-- Audio Options -->
+    <string name="audio_bitrate">Audio Bitrate</string>
+    <string name="audio_sample_rate">Sample Rate</string>
+
+    <!-- Image Options -->
+    <string name="image_quality">Quality</string>
+    <string name="image_resize">Resize</string>
+    <string name="image_width">Width</string>
+    <string name="image_height">Height</string>
+
+    <!-- Settings -->
+    <string name="output_directory">Output Directory</string>
+    <string name="default_video_format">Default Video Format</string>
+    <string name="default_audio_format">Default Audio Format</string>
+    <string name="default_image_format">Default Image Format</string>
+    <string name="default_video_quality">Default Video Quality</string>
+    <string name="default_audio_bitrate_setting">Default Audio Bitrate</string>
+    <string name="default_image_quality_setting">Default Image Quality</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="about">About</string>
+    <string name="app_version">Version</string>
+    <string name="select_directory">Select Directory</string>
+    <string name="app_default_directory">App Default</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="auto">Auto</string>
+    <string name="original">Original</string>
+    <string name="custom">Custom</string>
 </resources>

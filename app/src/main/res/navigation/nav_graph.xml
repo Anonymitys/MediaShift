@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videoFragment">
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.ekko.mediashift.ui.media.MediaConvertFragment"
+        android:label="@string/tab_video"
+        tools:layout="@layout/fragment_conversion">
+        <argument
+            android:name="mediaKind"
+            android:defaultValue="video"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="com.ekko.mediashift.ui.media.MediaConvertFragment"
+        android:label="@string/tab_audio"
+        tools:layout="@layout/fragment_conversion">
+        <argument
+            android:name="mediaKind"
+            android:defaultValue="audio"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.ekko.mediashift.ui.media.MediaConvertFragment"
+        android:label="@string/tab_image"
+        tools:layout="@layout/fragment_conversion">
+        <argument
+            android:name="mediaKind"
+            android:defaultValue="image"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ekko.mediashift.ui.settings.SettingsFragment"
+        android:label="@string/tab_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
